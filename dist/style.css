@@ -51,9 +51,6 @@
   padding-top: 12px;
   margin: 0; }
 
-ul.card-section li {
-  display: inline; }
-
 .card-section:first-child {
   padding-bottom: 12px; }
 
@@ -71,7 +68,11 @@ ul.card-section li {
   text-align: left; }
 
 .card-title {
-  line-height: 1.6rem; }
+  line-height: 1.6rem;
+  color: #76767d; }
+
+.card-title a {
+  color: inherit; }
 
 .card-title a:hover {
   color: #444; }

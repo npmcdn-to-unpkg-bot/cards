@@ -60,6 +60,10 @@
   color: $darkgray;
 }
 
+.card-title a {
+  color: inherit;
+}
+
 .card-title a:hover {
   color: $black;
 }
