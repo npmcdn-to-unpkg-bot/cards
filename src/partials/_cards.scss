@@ -1,0 +1,92 @@
+.external-link {
+  color: $inform-color;
+  font-size: $font-sm;
+}
+
+.border {
+  border-width: $border-width;
+}
+
+.rounded {
+  border-radius: $border-radius;
+}
+
+.card {
+  border-color: $lightgray;
+  border-style: $border-style;
+  margin: 0 auto;
+  max-width: $thumnail-max-width;
+  min-width: $thumnail-min-width;
+  padding: 0;
+}
+
+.card:hover {
+  box-shadow: $drop-shadow;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card-section {
+  padding: 12px 8px 0;
+}
+
+.card-section:first-child {
+  padding-bottom: 12px;
+}
+
+.card-handle {
+  color: $gray;
+  font-family: $monospace;
+  font-size: $font-sm;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-content {
+  color: $darkgray;
+  font-family: $serif;
+  padding-bottom: 4px;
+  text-align: left;
+}
+
+.card-title {
+  line-height: 1.6rem;
+}
+
+.card-title a:hover {
+  color: $black;
+}
+
+.card-media {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.card-media img {
+  min-height: $thumnail-min-height;
+  min-width: $thumnail-min-width;
+  max-height: $thumnail-max-height;
+  max-width: $thumnail-max-width;
+  width: auto;
+}
+
+.card-interactions {
+  font-size: $font-sm;
+}
+
+.card-interactions i {
+  color: $gray;
+}
+
+.card-interactions a {
+  color: $darkgray;
+}
+
+.card-interactions a:hover {
+  color: $primary-color;
+}

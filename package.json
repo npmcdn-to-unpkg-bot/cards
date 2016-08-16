@@ -1,0 +1,20 @@
+{
+  "name": "ucancards",
+  "version": "1.0.0",
+  "description": "Buttons",
+  "main": "dist/style.css",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ucandigit/cards.git"
+  },
+  "keywords": [
+    "cards"
+  ],
+  "author": "ucandigit <info@ucandigit.xyz> (https://ucandigit.xyz)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ucandigit/cards/issues"
+  },
+  "homepage": "https://github.com/ucandigit/cards"
+}
