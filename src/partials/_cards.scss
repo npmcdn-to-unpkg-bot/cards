@@ -29,7 +29,15 @@
 }
 
 .card-section {
-  padding: 12px 8px 0;
+  padding-bottom: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 12px;
+  margin: 0;
+}
+
+ul.card-section li {
+  display: inline;
 }
 
 .card-section:first-child {
