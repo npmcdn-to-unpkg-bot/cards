@@ -36,10 +36,6 @@
   margin: 0;
 }
 
-ul.card-section li {
-  display: inline;
-}
-
 .card-section:first-child {
   padding-bottom: 12px;
 }
@@ -61,6 +57,7 @@ ul.card-section li {
 
 .card-title {
   line-height: $font-xl;
+  color: $darkgray;
 }
 
 .card-title a:hover {
